@@ -1,0 +1,282 @@
+[
+    {
+        "order_id": "ORD-0101",
+        "customer_id": "CUST-5506",
+        "order_date": "2026-08-02T00:05:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 1,
+        "total_amount": -78.37,
+        "payment_method": "DEBIT_CARD",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "558879"
+        }
+    },
+    {
+        "order_id": "ORD-0102",
+        "customer_id": "CUST-1106",
+        "order_date": "2026-08-14T10:17:00Z",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 2,
+        "total_amount": 381.82,
+        "payment_method": null,
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0103",
+        "customer_id": "CUST-6881",
+        "order_date": "2026-08-26T01:46:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 4,
+        "total_amount": 425.27,
+        "payment_method": "UPI",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Hyderabad",
+            "zip_code": "549616"
+        }
+    },
+    {
+        "order_id": "ORD-0104",
+        "customer_id": "CUST-5803",
+        "order_date": "2026-08-23T02:02:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 1,
+        "total_amount": 313.07,
+        "payment_method": "PAYPAL",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "547820"
+        }
+    },
+    {
+        "order_id": "ORD-0105",
+        "customer_id": "CUST-6820",
+        "order_date": "2026-08-20T20:10:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 4,
+        "total_amount": 140.82,
+        "payment_method": "CREDIT_CARD",
+        "status": null,
+        "shipping_address": {
+            "city": null,
+            "zip_code": "542505"
+        }
+    },
+    {
+        "order_id": "ORD-0106",
+        "customer_id": "CUST-1916",
+        "order_date": "2026-08-13T08:04:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 2,
+        "total_amount": 122.23,
+        "payment_method": "UPI",
+        "status": "DELIVERED",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "565436"
+        }
+    },
+    {
+        "order_id": "ORD-0107",
+        "customer_id": "CUST-8517",
+        "order_date": "2026-08-24T17:34:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 3,
+        "total_amount": 80.01,
+        "payment_method": "PAYPAL",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "576485"
+        }
+    },
+    {
+        "order_id": "ORD-0108",
+        "customer_id": "CUST-4593",
+        "order_date": "2026-08-16T02:48:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 1,
+        "total_amount": 498.69,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "589193"
+        }
+    },
+    {
+        "order_id": "ORD-0109",
+        "customer_id": "CUST-2040",
+        "order_date": "2026-08-17T08:35:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 1,
+        "total_amount": 198.54,
+        "payment_method": "DEBIT_CARD",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Hyderabad",
+            "zip_code": "570382"
+        }
+    },
+    {
+        "order_id": "ORD-0110",
+        "customer_id": "CUST-6573",
+        "order_date": "2026-08-15T00:46:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 3,
+        "total_amount": 64.66,
+        "payment_method": "PAYPAL",
+        "status": "CANCELLED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "513948"
+        }
+    },
+    {
+        "order_id": "ORD-0111",
+        "customer_id": "CUST-5889",
+        "order_date": "2026-08-07T04:23:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 2,
+        "total_amount": 422.42,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "578505"
+        }
+    },
+    {
+        "order_id": "ORD-0112",
+        "customer_id": null,
+        "order_date": "2026-02-31T12:00:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 2,
+        "total_amount": 492.81,
+        "payment_method": "CREDIT_CARD",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "579508"
+        }
+    },
+    {
+        "order_id": "ORD-0113",
+        "customer_id": "CUST-4470",
+        "order_date": "2026-08-07T22:19:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 4,
+        "total_amount": 465.17,
+        "payment_method": null,
+        "status": null,
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "567840"
+        }
+    },
+    {
+        "order_id": "ORD-0114",
+        "customer_id": "CUST-5061",
+        "order_date": "2026-08-19T17:14:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 2,
+        "total_amount": 120.1,
+        "payment_method": "CREDIT_CARD",
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": "Hyderabad",
+            "zip_code": "507717"
+        }
+    },
+    {
+        "order_id": "ORD-0115",
+        "customer_id": "CUST-1514",
+        "order_date": "2026-08-05T23:59:00Z",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 2,
+        "total_amount": 0.0,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Hyderabad",
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0116",
+        "customer_id": "CUST-7939",
+        "order_date": "2026-08-22T20:41:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 1,
+        "total_amount": 211.44,
+        "payment_method": "CREDIT_CARD",
+        "status": null,
+        "shipping_address": {
+            "city": "Mumbai",
+            "zip_code": "514323"
+        }
+    },
+    {
+        "order_id": "ORD-0117",
+        "customer_id": "CUST-4116",
+        "order_date": "0000-00-00",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 2,
+        "total_amount": 0.0,
+        "payment_method": "CREDIT_CARD",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Mumbai",
+            "zip_code": "521580"
+        }
+    },
+    {
+        "order_id": "ORD-0118",
+        "customer_id": "CUST-7396",
+        "order_date": "2026-08-14T22:46:00Z",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 4,
+        "total_amount": 139.95,
+        "payment_method": "UPI",
+        "status": "CANCELLED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "507666"
+        }
+    },
+    {
+        "order_id": "ORD-0119",
+        "customer_id": "CUST-9883",
+        "order_date": "2026-08-02T18:30:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 2,
+        "total_amount": 39.87,
+        "payment_method": "CREDIT_CARD",
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": null,
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0120",
+        "customer_id": "CUST-2113",
+        "order_date": "2026-08-02T19:05:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 3,
+        "total_amount": null,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "551877"
+        }
+    }
+]

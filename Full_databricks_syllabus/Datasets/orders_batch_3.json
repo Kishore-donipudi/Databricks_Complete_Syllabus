@@ -1,0 +1,254 @@
+[
+    {
+        "order_id": "ORD-0301",
+        "customer_id": "CUST-9976",
+        "order_date": "2026-08-28T15:28:00Z",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 3,
+        "total_amount": 228.5,
+        "payment_method": null,
+        "status": "PENDING",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "568328"
+        }
+    },
+    {
+        "order_id": "ORD-0302",
+        "customer_id": "CUST-4919",
+        "order_date": "2026-08-10T07:17:00Z",
+        "product_name": "USB-C Cable",
+        "quantity": 3,
+        "total_amount": 144.55,
+        "payment_method": null,
+        "status": "DELIVERED",
+        "shipping_address": {
+            "city": null,
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0303",
+        "customer_id": "CUST-7275",
+        "order_date": "2026-08-15T13:03:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 1,
+        "total_amount": 0.0,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": "Mumbai",
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0304",
+        "customer_id": "CUST-7389",
+        "order_date": "2026-08-24T23:34:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 2,
+        "total_amount": 428.19,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "CANCELLED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "563655"
+        }
+    },
+    {
+        "order_id": "NULL_ORDER_ID",
+        "customer_id": "CUST-6507",
+        "order_date": "2026-08-20T17:01:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 1,
+        "total_amount": 401.09,
+        "payment_method": "PAYPAL",
+        "status": "CANCELLED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0306",
+        "customer_id": "CUST-4467",
+        "order_date": "2026-08-09T13:16:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 1,
+        "total_amount": 232.8,
+        "payment_method": "DEBIT_CARD",
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": "Hyderabad",
+            "zip_code": "506827"
+        }
+    },
+    {
+        "order_id": "ORD-0307",
+        "customer_id": "CUST-6733",
+        "order_date": "2026-08-02T00:15:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 2,
+        "total_amount": 119.87,
+        "payment_method": null,
+        "status": "DELIVERED",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "516545"
+        }
+    },
+    {
+        "order_id": "ORD-0308",
+        "customer_id": "CUST-2874",
+        "order_date": "2026-08-23T08:49:00Z",
+        "product_name": "Mechanical Keyboard",
+        "quantity": 3,
+        "total_amount": 286.35,
+        "payment_method": "DEBIT_CARD",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "598033"
+        }
+    },
+    {
+        "order_id": "ORD-0309",
+        "customer_id": "CUST-3683",
+        "order_date": "2026-08-01T09:36:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 4,
+        "total_amount": 482.71,
+        "payment_method": "INVALID_GATEWAY",
+        "status": "DELIVERED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": null
+        }
+    },
+    {
+        "order_id": "ORD-0310",
+        "customer_id": "CUST-4978",
+        "order_date": "2026-08-20T03:50:00Z",
+        "product_name": "USB-C Cable",
+        "quantity": 1,
+        "total_amount": 59.93,
+        "payment_method": null,
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "548572"
+        }
+    },
+    {
+        "order_id": "ORD-0311",
+        "customer_id": null,
+        "order_date": "INVALID_DATE_FORMAT",
+        "product_name": "Gaming Monitor",
+        "quantity": 3,
+        "total_amount": 250.2,
+        "payment_method": null,
+        "status": "SHIPPED",
+        "shipping_address": {
+            "city": "Mumbai",
+            "zip_code": "595818"
+        }
+    },
+    {
+        "order_id": "ORD-0312",
+        "customer_id": "CUST-6280",
+        "order_date": "2026-08-29T14:15:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 4,
+        "total_amount": 427.34,
+        "payment_method": "UPI",
+        "status": "DELIVERED",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "544093"
+        }
+    },
+    {
+        "order_id": "ORD-0313",
+        "customer_id": null,
+        "order_date": "INVALID_DATE_FORMAT",
+        "product_name": "Mechanical Keyboard",
+        "quantity": -2,
+        "total_amount": 400.94,
+        "payment_method": null,
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Mumbai",
+            "zip_code": "564333"
+        }
+    },
+    {
+        "order_id": "ORD-0314",
+        "customer_id": "CUST-1282",
+        "order_date": "2026-08-23T07:19:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 3,
+        "total_amount": 55.6,
+        "payment_method": "DEBIT_CARD",
+        "status": "PENDING",
+        "shipping_address": {
+            "city": null,
+            "zip_code": "555772"
+        }
+    },
+    {
+        "order_id": "ORD-0315",
+        "customer_id": "CUST-6419",
+        "order_date": "2026-08-10T08:14:00Z",
+        "product_name": "External Hard Drive",
+        "quantity": 1,
+        "total_amount": 182.39,
+        "payment_method": "UPI",
+        "status": "CANCELLED",
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "597371"
+        }
+    },
+    {
+        "order_id": "ORD-0316",
+        "customer_id": "CUST-4033",
+        "order_date": "2026-08-09T23:37:00Z",
+        "product_name": "Wireless Mouse",
+        "quantity": 3,
+        "total_amount": 103.86,
+        "payment_method": "DEBIT_CARD",
+        "status": null,
+        "shipping_address": {
+            "city": "Bengaluru",
+            "zip_code": "547302"
+        }
+    },
+    {
+        "order_id": "ORD-0317",
+        "customer_id": "CUST-1231",
+        "order_date": "2026-08-23T04:40:00Z",
+        "product_name": "Gaming Monitor",
+        "quantity": 1,
+        "total_amount": -72.03,
+        "payment_method": "UPI",
+        "status": "ERROR_UNKNOWN",
+        "shipping_address": {
+            "city": "Chennai",
+            "zip_code": "506735"
+        }
+    },
+    {
+        "order_id": "ORD-0318",
+        "customer_id": null,
+        "order_date": "2026-08-05T04:51:00Z",
+        "product_name": "Noise Canceling Headphones",
+        "quantity": 2,
+        "total_amount": 250.96,
+        "payment_method": "CREDIT_CARD",
+        "status": null,
+        "shipping_address": {
+            "city": null,
+            "zip_code": "529582"
+        }
+    }
+]
