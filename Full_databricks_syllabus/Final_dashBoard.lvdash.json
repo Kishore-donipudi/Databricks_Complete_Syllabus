@@ -1,0 +1,259 @@
+{
+  "datasets": [
+    {
+      "name": "8997d4f3",
+      "displayName": "City Product Pricing Overview Dataset",
+      "queryLines": [
+        "USE CATALOG `starboy_9`;\n",
+        "USE SCHEMA `m_hop`;\n",
+        "\n",
+        "select city,product_name,round(total_amount/quantity,2) as product_price from stream_silver"
+      ]
+    },
+    {
+      "name": "bebef07a",
+      "displayName": "Untitled dataset",
+      "queryLines": [
+        "USE CATALOG `starboy_9`;\n",
+        "USE SCHEMA `m_hop`;\n",
+        "\n",
+        "select count(*) as total_records from stream_bronze;"
+      ]
+    },
+    {
+      "name": "f61d2751",
+      "displayName": "Untitled dataset",
+      "queryLines": [
+        "USE CATALOG `starboy_9`;\n",
+        "USE SCHEMA `m_hop`;\n",
+        "\n",
+        "select * from stream_gold1"
+      ]
+    },
+    {
+      "name": "8739cda1",
+      "displayName": "Untitled dataset",
+      "queryLines": [
+        "USE CATALOG `starboy_9`;\n",
+        "USE SCHEMA `m_hop`;\n",
+        "\n",
+        "select * from stream_gold2"
+      ]
+    },
+    {
+      "name": "77a38b7d",
+      "displayName": "Untitled dataset",
+      "queryLines": [
+        "USE CATALOG `starboy_9`;\n",
+        "USE SCHEMA `m_hop`;\n",
+        "\n",
+        "select * from stream_gold3"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "ae8eb0d8",
+      "displayName": "Untitled Page",
+      "layout": [
+        {
+          "widget": {
+            "name": "570bad27",
+            "queries": [
+              {
+                "name": "159dd8add2a64de986339f43fbca1283",
+                "query": {
+                  "datasetName": "8997d4f3",
+                  "fields": [
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    },
+                    {
+                      "name": "product_name",
+                      "expression": "`product_name`"
+                    },
+                    {
+                      "name": "column_a1935ef374",
+                      "expression": "SUM(`product_price`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 0,
+              "viz_spec": {
+                "display_name": "product_price_per_city",
+                "viz_type": "CHART",
+                "serialized_options": "{\"isAggregationOn\":true,\"series\":{\"error_y\":{\"type\":\"data\",\"visible\":true},\"stacking\":\"stack\"},\"coefficient\":1,\"yAxis\":[{\"type\":\"-\"},{\"opposite\":true,\"type\":\"-\"}],\"columnConfigurationMap\":{\"series\":{\"column\":\"product_name\",\"id\":\"column_a1935ef373\"},\"x\":{\"column\":\"city\",\"id\":\"column_a1935ef372\"},\"y\":[{\"column\":\"product_price\",\"id\":\"column_a1935ef374\",\"transform\":\"SUM\"}]},\"alignYAxesAtZero\":true,\"direction\":{\"type\":\"counterclockwise\"},\"swappedAxes\":false,\"percentFormat\":\"0[.]00%\",\"textFormat\":\"\",\"legend\":{\"traceorder\":\"normal\"},\"globalSeriesType\":\"column\",\"version\":2,\"sizemode\":\"diameter\",\"seriesOptions\":{\"Wireless Mouse\":{\"color\":\"#BF7080\"},\"column_a1935ef374\":{\"name\":\"product_price\",\"yAxis\":0}},\"error_y\":{\"type\":\"data\",\"visible\":true},\"sortX\":true,\"showDataLabels\":false,\"missingValuesAsZero\":true,\"useAggregationsUi\":true,\"numberFormat\":\"0,0.[00000]\",\"dateTimeFormat\":\"DD/MM/YYYY HH:mm\",\"sortY\":true,\"valuesOptions\":{},\"xAxis\":{\"labels\":{\"enabled\":true},\"type\":\"-\"}}",
+                "query_name": "159dd8add2a64de986339f43fbca1283"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
+            "width": 7,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "56035c07",
+            "queries": [
+              {
+                "name": "67faae51fc1946f7a20057f3d00870f8",
+                "query": {
+                  "datasetName": "bebef07a",
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 0,
+              "viz_spec": {
+                "display_name": "Records",
+                "viz_type": "COUNTER",
+                "serialized_options": "{\"stringThouSep\":\",\",\"counterLabel\":\"\",\"rowNumber\":1,\"stringDecChar\":\".\",\"tooltipFormat\":\"0,0.000\",\"counterColName\":\"total_records\",\"stringDecimal\":0,\"targetRowNumber\":1,\"targetColName\":\"\",\"countRow\":false}",
+                "query_name": "67faae51fc1946f7a20057f3d00870f8"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "3e799607",
+            "queries": [
+              {
+                "name": "ded2fab7f21840fd87e69f0fd36d47c7",
+                "query": {
+                  "datasetName": "f61d2751",
+                  "fields": [
+                    {
+                      "name": "payment_method",
+                      "expression": "`payment_method`"
+                    },
+                    {
+                      "name": "column_a1935ef324",
+                      "expression": "SUM(`total_no_of_orders`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 0,
+              "viz_spec": {
+                "display_name": "payments_methods",
+                "viz_type": "CHART",
+                "serialized_options": "{\"isAggregationOn\":true,\"series\":{\"error_y\":{\"type\":\"data\",\"visible\":true},\"stacking\":null},\"coefficient\":1,\"yAxis\":[{\"type\":\"-\"},{\"opposite\":true,\"type\":\"-\"}],\"columnConfigurationMap\":{\"x\":{\"column\":\"payment_method\",\"id\":\"column_a1935ef323\"},\"y\":[{\"column\":\"total_no_of_orders\",\"id\":\"column_a1935ef324\",\"transform\":\"SUM\"}]},\"alignYAxesAtZero\":true,\"direction\":{\"type\":\"counterclockwise\"},\"swappedAxes\":false,\"percentFormat\":\"0[.]00%\",\"textFormat\":\"\",\"legend\":{\"traceorder\":\"normal\"},\"globalSeriesType\":\"column\",\"version\":2,\"sizemode\":\"diameter\",\"seriesOptions\":{\"column_a1935ef324\":{\"name\":\"total_no_of_orders\",\"yAxis\":0}},\"error_y\":{\"type\":\"data\",\"visible\":true},\"sortX\":true,\"showDataLabels\":false,\"missingValuesAsZero\":true,\"useAggregationsUi\":true,\"numberFormat\":\"0,0.[00000]\",\"dateTimeFormat\":\"DD/MM/YYYY HH:mm\",\"sortY\":true,\"valuesOptions\":{},\"xAxis\":{\"labels\":{\"enabled\":true},\"type\":\"-\"}}",
+                "query_name": "ded2fab7f21840fd87e69f0fd36d47c7"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 18,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "8aff8bad",
+            "queries": [
+              {
+                "name": "6cbb4cdaed914980a07a84b5a75acf74",
+                "query": {
+                  "datasetName": "8739cda1",
+                  "fields": [
+                    {
+                      "name": "order_id",
+                      "expression": "`order_id`"
+                    },
+                    {
+                      "name": "column_a1935ef340",
+                      "expression": "SUM(`product_price`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 0,
+              "viz_spec": {
+                "display_name": "Order_graph",
+                "viz_type": "CHART",
+                "serialized_options": "{\"series\":{\"error_y\":{\"type\":\"data\",\"visible\":true},\"stacking\":null},\"coefficient\":1,\"yAxis\":[{\"type\":\"-\"},{\"opposite\":true,\"type\":\"-\"}],\"columnConfigurationMap\":{\"x\":{\"column\":\"order_id\",\"id\":\"column_a1935ef339\"},\"y\":[{\"column\":\"product_price\",\"id\":\"column_a1935ef340\",\"transform\":\"SUM\"}]},\"alignYAxesAtZero\":true,\"direction\":{\"type\":\"counterclockwise\"},\"swappedAxes\":false,\"percentFormat\":\"0[.]00%\",\"textFormat\":\"\",\"legend\":{\"traceorder\":\"normal\"},\"globalSeriesType\":\"line\",\"version\":2,\"sizemode\":\"diameter\",\"seriesOptions\":{\"column_a1935ef340\":{\"name\":\"product_price\",\"type\":\"line\",\"yAxis\":0}},\"error_y\":{\"type\":\"data\",\"visible\":true},\"sortX\":true,\"showDataLabels\":false,\"missingValuesAsZero\":true,\"useAggregationsUi\":true,\"numberFormat\":\"0,0.[00000]\",\"dateTimeFormat\":\"DD/MM/YYYY HH:mm\",\"sortY\":true,\"valuesOptions\":{},\"xAxis\":{\"labels\":{\"enabled\":true},\"type\":\"-\"}}",
+                "query_name": "6cbb4cdaed914980a07a84b5a75acf74"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 12,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bf533295",
+            "queries": [
+              {
+                "name": "5e78eb7360ee40f6897b01c6a54961ec",
+                "query": {
+                  "datasetName": "77a38b7d",
+                  "fields": [
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    },
+                    {
+                      "name": "column_a1935ef356",
+                      "expression": "SUM(`orders_per_city`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 0,
+              "viz_spec": {
+                "display_name": "cities",
+                "viz_type": "CHART",
+                "serialized_options": "{\"series\":{\"error_y\":{\"type\":\"data\",\"visible\":true},\"stacking\":null},\"coefficient\":1,\"yAxis\":[{\"type\":\"-\"},{\"opposite\":true,\"type\":\"-\"}],\"columnConfigurationMap\":{\"x\":{\"column\":\"city\",\"id\":\"column_a1935ef355\"},\"y\":[{\"column\":\"orders_per_city\",\"id\":\"column_a1935ef356\",\"transform\":\"SUM\"}]},\"alignYAxesAtZero\":true,\"direction\":{\"type\":\"counterclockwise\"},\"swappedAxes\":false,\"percentFormat\":\"0[.]00%\",\"textFormat\":\"\",\"legend\":{\"traceorder\":\"normal\"},\"globalSeriesType\":\"pie\",\"version\":2,\"sizemode\":\"diameter\",\"seriesOptions\":{\"column_a1935ef356\":{\"name\":\"orders_per_city\",\"type\":\"pie\",\"yAxis\":0}},\"error_y\":{\"type\":\"data\",\"visible\":true},\"sortX\":true,\"showDataLabels\":true,\"missingValuesAsZero\":true,\"useAggregationsUi\":true,\"numberFormat\":\"0,0.[00000]\",\"dateTimeFormat\":\"DD/MM/YYYY HH:mm\",\"sortY\":true,\"valuesOptions\":{},\"xAxis\":{\"labels\":{\"enabled\":true},\"type\":\"-\"}}",
+                "query_name": "5e78eb7360ee40f6897b01c6a54961ec"
+              }
+            }
+          },
+          "position": {
+            "x": 7,
+            "y": 6,
+            "width": 5,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
