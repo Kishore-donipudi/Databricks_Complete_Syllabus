@@ -28,6 +28,7 @@ jobs:
                 ruff --version  # checking the ruff version
 
     test:
+        needs: build
         runs-on: Ubuntu-latest  #deploying the code in ubuntu environment
         steps:            
             - name: Running Ruff 
