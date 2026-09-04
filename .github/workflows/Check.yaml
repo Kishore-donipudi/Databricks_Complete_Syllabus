@@ -13,7 +13,7 @@ jobs:
             - name: setup Python     #Setting up the python environment in ubuntu
               uses: actions/setup-python@v7  # getting the python setup action from github 
               with:
-                python-version: '3.15'  #specifying the python version to be used 
+                python-version: '3.11'  #specifying the python version to be used 
 
             - name: Installing deps 
               run: |
