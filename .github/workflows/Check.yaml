@@ -4,14 +4,17 @@ on:
     push: 
         branches:
             - main
+    pull_request:
+        branches:
+            - databricks-update
 jobs:
     build:
-        runs-on: Ubuntu-latest #deploying the code in ubuntu environment
+        runs-on: ubuntu-latest #deploying the code in ubuntu environment
         steps:
             - name: Checkout repo 
-              uses: actions/checkout@v7   # checks the repo code and downloads it to the ubuntu env
+              uses: actions/checkout@v4  # checks the repo code and downloads it to the ubuntu env
             - name: setup Python     #Setting up the python environment in ubuntu
-              uses: actions/setup-python@v7  # getting the python setup action from github 
+              uses: actions/setup-python@v5  # getting the python setup action from github 
               with:
                 python-version: '3.11'  #specifying the python version to be used 
 
@@ -29,8 +32,19 @@ jobs:
 
     test:
         needs: build
-        runs-on: Ubuntu-latest  #deploying the code in ubuntu environment
-        steps:            
+        runs-on: ubuntu-latest  #deploying the code in ubuntu environment
+        steps:   
+            - name: Checkout repo 
+              uses: actions/checkout@v4  # checks the repo code and downloads it to the ubuntu env
+            
+            - name: setup Python     #Setting up the python environment in ubuntu
+              uses: actions/setup-python@v5  # getting the python setup action from github 
+              with:
+                python-version: '3.11'  #specifying the python version to be used
+
+            - name: Install Ruff
+              run: pip install ruff
+              
             - name: Running Ruff 
               run: | 
                    echo "==== Nb Files ===="
