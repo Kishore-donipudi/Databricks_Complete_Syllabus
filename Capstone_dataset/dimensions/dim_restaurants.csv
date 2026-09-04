@@ -1,0 +1,201 @@
+restaurant_id,name,cuisines,location_id,rating,delivery_fee
+R001,Food Haven Grill,Indian,L069,3.3,3.9
+R002,Spice Villa Hub,"Thai,Italian,Chinese",L012,3.8,2.25
+R003,,"Indian,Thai",L076,0,0
+R004,Curry Leaf Hub,"Indian,American",L048,3.1,3.03
+R005,Tasty Bites Grill,Mexican,L039,3.9,1.02
+R006,,"Thai,American",L077,0,0
+R007,Pasta Palace Corner,"American,Mexican,Chinese",L014,3.3,3.33
+R008,Curry Leaf Grill,"Chinese,Mexican",L053,2.7,1.25
+R009,Curry Leaf Corner,Mexican,L010,3.4,3.11
+R010,Pasta Palace Hub,"Mexican,Italian,American",L082,3.6,2.76
+R011,Curry Leaf Corner,"Chinese,Thai",L017,3.7,2.83
+R012,Pasta Palace Hub,"Indian,Chinese,Mexican",L061,2.6,1.63
+R013,Food Haven Grill,"Thai,Mexican,Indian",L016,3.4,2.16
+R014,Spice Villa Grill,"Italian,American,Thai",L039,3.2,1.11
+R015,Spice Villa Hub,Mexican,L007,4.8,2.22
+R016,Spice Villa Corner,"American,Mexican",L001,2.8,2.39
+R017,,Thai,L040,0,0
+R018,Curry Leaf Hub,"Chinese,American",L065,4.1,4.05
+R019,Curry Leaf Corner,"American,Italian,Indian",L080,4.2,2.64
+R020,Curry Leaf Express,Thai,L006,4.9,4.56
+R021,Food Haven Grill,"Chinese,Indian,Italian",L072,4.1,3.58
+R022,,Thai,L074,0,0
+R023,,"Thai,Indian,American",L085,0,0
+R024,Food Haven Corner,Chinese,L091,4.6,3.32
+R025,,Italian,L052,0,0
+R026,,Chinese,L054,0,0
+R027,Food Haven Grill,"Indian,American",L070,2.9,1.58
+R028,Tasty Bites Corner,"Italian,Mexican",L087,2.9,3.46
+R029,Spice Villa Grill,"American,Indian",L039,3.5,2.28
+R030,,"Mexican,Indian",L007,0,0
+R031,,"Thai,American,Mexican",L015,0,0
+R032,,"Mexican,Indian,American",L082,0,0
+R033,,"American,Indian",L032,0,0
+R034,Food Haven Hub,Mexican,L058,2.7,3.54
+R035,Spice Villa Express,Thai,L022,4.5,3.15
+R036,Pasta Palace Kitchen,"Indian,American",L060,4.9,3.48
+R037,Spice Villa Grill,"Indian,Mexican,Italian",L077,3.1,3.72
+R038,Spice Villa Hub,"Thai,Italian",L006,2.9,3.14
+R039,Food Haven Grill,Mexican,L090,2.8,1.56
+R040,Food Haven Kitchen,"Chinese,Thai,Italian",L088,4.9,3.54
+R041,Curry Leaf Express,"Chinese,Italian,Thai",L027,3.6,3.4
+R042,Spice Villa Grill,Thai,L061,2.5,1.04
+R043,Curry Leaf Hub,American,L091,3.7,2.57
+R044,Tasty Bites Hub,Indian,L086,3.6,1.49
+R045,,"Mexican,Chinese",L099,0,0
+R046,Curry Leaf Express,Chinese,L057,2.5,3.97
+R047,,"Indian,Thai",L081,0,0
+R048,,Indian,L036,0,0
+R049,Spice Villa Grill,"Chinese,Mexican,Indian",L036,3.9,2.98
+R050,Spice Villa Hub,"American,Thai,Chinese",L009,4.0,3.98
+R051,Food Haven Hub,Chinese,L067,4.3,2.1
+R052,Tasty Bites Hub,"Thai,Italian,Mexican",L001,4.8,3.56
+R053,Tasty Bites Express,"Mexican,American,Italian",L016,4.2,2.87
+R054,Pasta Palace Grill,"American,Chinese",L007,3.2,2.68
+R055,Food Haven Grill,"Mexican,Chinese",L043,2.7,3.29
+R056,Spice Villa Kitchen,Indian,L032,3.0,2.32
+R057,Tasty Bites Grill,Mexican,L056,4.5,3.37
+R058,,"Chinese,Indian,Mexican",L031,0,0
+R059,Pasta Palace Corner,"Indian,Thai",L080,3.6,1.38
+R060,Pasta Palace Grill,"Indian,American",L005,3.4,4.56
+R061,Tasty Bites Corner,"Indian,Mexican,American",L039,4.0,2.73
+R062,Tasty Bites Hub,Indian,L038,4.6,2.61
+R063,Curry Leaf Corner,"Thai,American,Indian",L059,3.5,4.18
+R064,Pasta Palace Grill,"Italian,Indian,Mexican",L067,3.3,1.77
+R065,Tasty Bites Hub,American,L009,4.0,4.36
+R066,Spice Villa Hub,"Italian,American,Mexican",L062,4.3,2.78
+R067,Spice Villa Grill,Indian,L017,3.3,2.74
+R068,Food Haven Express,"Thai,American,Chinese",L019,3.7,3.41
+R069,Food Haven Grill,"Thai,American",L085,4.2,1.23
+R070,Pasta Palace Grill,"Mexican,Italian,Chinese",L026,4.1,1.81
+R071,,American,L061,0,0
+R072,Food Haven Hub,"Thai,Italian,American",L054,3.3,1.42
+R073,Curry Leaf Corner,Indian,L082,3.1,1.92
+R074,Spice Villa Corner,"Mexican,Italian,American",L027,3.5,4.3
+R075,Food Haven Grill,Indian,L046,2.6,1.46
+R076,Curry Leaf Corner,"American,Thai",L098,3.4,4.9
+R077,,Chinese,L029,0,0
+R078,Pasta Palace Corner,"Chinese,American",L003,2.9,2.05
+R079,Tasty Bites Corner,Mexican,L084,4.5,1.44
+R080,Food Haven Kitchen,Chinese,L048,4.5,3.64
+R081,Pasta Palace Kitchen,"American,Indian,Thai",L019,4.7,1.52
+R082,Spice Villa Hub,Mexican,L089,3.4,3.4
+R083,Spice Villa Grill,"Thai,American,Chinese",L069,3.2,1.59
+R084,,Chinese,L066,0,0
+R085,Tasty Bites Kitchen,American,L079,2.7,3.03
+R086,Pasta Palace Express,"Mexican,Thai,American",L023,3.3,2.5
+R087,Curry Leaf Kitchen,"Mexican,Italian,American",L082,4.8,3.34
+R088,Spice Villa Corner,Chinese,L058,4.7,2.58
+R089,Curry Leaf Kitchen,"Thai,Chinese",L048,3.1,1.34
+R090,Food Haven Kitchen,Thai,L046,3.1,1.16
+R091,Pasta Palace Express,"Mexican,American,Thai",L056,3.5,4.22
+R092,Food Haven Kitchen,"Indian,Chinese",L057,3.1,3.58
+R093,Tasty Bites Express,"Thai,American",L070,4.1,4.14
+R094,Tasty Bites Grill,Indian,L047,2.6,1.8
+R095,,Italian,L096,0,0
+R096,Spice Villa Hub,"Chinese,Thai",L034,2.5,2.2
+R097,,"Thai,Indian",L061,0,0
+R098,,Chinese,L093,0,0
+R099,,"Mexican,American,Italian",L011,0,0
+R100,Curry Leaf Corner,"Mexican,American,Indian",L048,2.8,4.5
+R101,Tasty Bites Kitchen,"American,Italian",L044,3.1,2.7
+R102,Pasta Palace Express,"Italian,Thai",L003,3.9,1.13
+R103,Spice Villa Express,Thai,L081,4.5,4.66
+R104,,"Chinese,Mexican,Indian",L069,0,0
+R105,Pasta Palace Kitchen,"American,Italian",L012,2.9,3.7
+R106,Tasty Bites Hub,Mexican,L004,3.0,1.28
+R107,Food Haven Corner,"Chinese,Italian",L085,3.8,2.82
+R108,Pasta Palace Grill,"Chinese,Italian",L053,3.5,4.96
+R109,Pasta Palace Kitchen,Mexican,L096,2.7,4.82
+R110,Spice Villa Corner,Italian,L056,4.5,3.66
+R111,Pasta Palace Hub,Italian,L076,3.0,3.87
+R112,,"Indian,Chinese",L058,0,0
+R113,Pasta Palace Express,Thai,L063,3.7,3.3
+R114,,"American,Mexican,Italian",L090,0,0
+R115,Pasta Palace Corner,"Mexican,Chinese",L023,4.7,3.93
+R116,Curry Leaf Corner,"American,Thai",L013,3.5,4.78
+R117,Spice Villa Express,American,L069,3.2,4.67
+R118,Spice Villa Kitchen,"Mexican,Thai,Indian",L048,2.7,1.42
+R119,,"Chinese,Italian",L027,0,0
+R120,Curry Leaf Kitchen,Italian,L096,3.5,1.78
+R121,Tasty Bites Express,Indian,L091,4.8,2.31
+R122,Curry Leaf Kitchen,"Mexican,Indian,Thai",L071,4.1,3.85
+R123,,"Italian,Chinese",L022,0,0
+R124,,Thai,L095,0,0
+R125,Food Haven Corner,Mexican,L046,2.9,3.86
+R126,,"Mexican,Indian,Thai",L050,0,0
+R127,Tasty Bites Grill,"Mexican,Chinese,Thai",L048,4.8,1.8
+R128,Curry Leaf Grill,Indian,L044,4.6,3.72
+R129,Spice Villa Grill,American,L022,4.3,1.18
+R130,Tasty Bites Express,"Italian,Thai,Chinese",L080,3.0,3.17
+R131,,"Chinese,Indian",L046,0,0
+R132,Food Haven Grill,"Mexican,Chinese,American",L029,2.7,4.26
+R133,Pasta Palace Express,"Indian,American,Chinese",L053,3.3,3.4
+R134,Pasta Palace Hub,Chinese,L033,4.9,3.4
+R135,Curry Leaf Corner,"Italian,Chinese,American",L086,3.7,2.34
+R136,Pasta Palace Kitchen,"Mexican,Thai,Chinese",L065,4.0,4.95
+R137,Tasty Bites Hub,Indian,L040,3.1,2.71
+R138,,Indian,L018,0,0
+R139,Curry Leaf Corner,American,L005,3.1,3.9
+R140,Food Haven Corner,"Italian,American",L083,4.5,1.16
+R141,Food Haven Grill,"Chinese,Italian",L044,3.1,3.16
+R142,Spice Villa Corner,"Thai,Mexican,Italian",L024,3.6,1.02
+R143,Tasty Bites Corner,"Indian,Chinese",L027,2.8,1.69
+R144,Spice Villa Corner,"Thai,Indian,Mexican",L093,3.7,1.66
+R145,Spice Villa Kitchen,Chinese,L078,3.1,2.14
+R146,Spice Villa Express,"Mexican,Indian",L047,3.5,1.67
+R147,,"Thai,Mexican",L098,0,0
+R148,Tasty Bites Kitchen,"Mexican,Indian",L098,4.8,2.2
+R149,Spice Villa Hub,"American,Chinese,Italian",L049,3.7,2.81
+R150,Pasta Palace Hub,"Mexican,Indian",L043,2.8,2.88
+R151,,Indian,L065,0,0
+R152,,"American,Italian",L050,0,0
+R153,,"Indian,American,Mexican",L073,0,0
+R154,Food Haven Hub,"American,Mexican",L082,4.2,3.79
+R155,Curry Leaf Kitchen,"American,Chinese,Thai",L062,2.6,4.25
+R156,Tasty Bites Corner,"Italian,Thai,Mexican",L088,2.9,1.99
+R157,Spice Villa Grill,"Indian,American,Mexican",L051,4.3,4.9
+R158,Pasta Palace Corner,Mexican,L022,4.6,2.01
+R159,Pasta Palace Hub,"American,Mexican",L076,3.3,2.65
+R160,Tasty Bites Grill,"American,Thai,Italian",L019,3.2,1.84
+R161,Curry Leaf Express,"Indian,Chinese,Mexican",L001,2.7,4.09
+R162,,"American,Italian",L094,0,0
+R163,Spice Villa Corner,Mexican,L024,3.8,1.44
+R164,Spice Villa Corner,"Chinese,Indian,American",L098,3.0,4.93
+R165,,"Indian,Chinese",L011,0,0
+R166,Tasty Bites Express,"Indian,Thai",L031,3.7,3.69
+R167,,Italian,L097,0,0
+R168,,Thai,L001,0,0
+R169,,"Italian,Thai",L055,0,0
+R170,,"Italian,Mexican",L049,0,0
+R171,Tasty Bites Grill,"Mexican,American",L093,4.6,4.7
+R172,,Thai,L036,0,0
+R173,Food Haven Kitchen,Thai,L088,4.1,2.9
+R174,Spice Villa Grill,"American,Italian",L003,4.1,4.49
+R175,,"Chinese,Thai,Mexican",L052,0,0
+R176,Curry Leaf Kitchen,"American,Indian",L094,3.5,3.43
+R177,,"Thai,American,Indian",L017,0,0
+R178,,"Chinese,Mexican,Indian",L062,0,0
+R179,Spice Villa Grill,Indian,L056,5.0,1.12
+R180,Curry Leaf Express,"Chinese,Italian",L086,3.7,4.59
+R181,Spice Villa Hub,American,L093,3.7,4.18
+R182,Spice Villa Hub,"Thai,Indian",L083,3.4,4.64
+R183,Curry Leaf Hub,"Mexican,Chinese,Thai",L034,2.8,1.35
+R184,Food Haven Hub,Chinese,L096,4.9,3.29
+R185,Food Haven Kitchen,Thai,L095,2.5,1.25
+R186,Spice Villa Kitchen,"Mexican,Italian,Thai",L087,4.8,1.51
+R187,,"Chinese,Indian,Mexican",L002,0,0
+R188,Food Haven Corner,Mexican,L088,3.6,3.41
+R189,Tasty Bites Hub,Italian,L040,3.8,3.75
+R190,Pasta Palace Kitchen,"American,Chinese",L064,3.2,4.87
+R191,,American,L027,0,0
+R192,,Mexican,L094,0,0
+R193,,"Thai,Mexican,Italian",L055,0,0
+R194,Curry Leaf Grill,"Thai,Italian",L037,4.2,1.78
+R195,Curry Leaf Grill,"Chinese,Italian,Indian",L091,3.3,3.62
+R196,Spice Villa Kitchen,"American,Mexican,Italian",L019,3.0,4.22
+R197,,American,L074,0,0
+R198,Curry Leaf Kitchen,American,L022,4.8,1.38
+R199,Spice Villa Grill,"Indian,Thai",L084,3.3,2.74
+R200,Curry Leaf Corner,Indian,L016,3.1,2.95
