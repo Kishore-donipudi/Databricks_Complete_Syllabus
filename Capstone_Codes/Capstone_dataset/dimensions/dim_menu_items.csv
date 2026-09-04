@@ -1,0 +1,501 @@
+item_id,restaurant_id,item_name,price,category
+I0001,R017,Radio Soda,17.97,Beverage
+I0002,R169,Occur Pizza,27.44,Main Course
+I0003,R178,Road Nachos,9.5,Appetizer
+I0004,R032,Detail Juice,5.98,Beverage
+I0005,R042,Floor Nachos,7.2,Appetizer
+I0006,R022,Benefit Ice Cream,29.5,Dessert
+I0007,R140,Firm Cake,9.29,Dessert
+I0008,R077,East Pizza,6.15,Main Course
+I0009,R137,Same Brownie,16.12,Dessert
+I0010,R134,Wrong Juice,0,Beverage
+I0011,R138,Purpose Brownie,0,Dessert
+I0012,R061,Born Biryani,5.92,Main Course
+I0013,R056,Tough Garlic Bread,28.94,Appetizer
+I0014,R092,Support Nachos,0,Appetizer
+I0015,R141,Newspaper Tea,11.37,Beverage
+I0016,R103,Radio Coffee,16.4,Beverage
+I0017,R109,Possible Brownie,28.5,Dessert
+I0018,R053,Finish Nachos,6.76,Appetizer
+I0019,R179,Skin Brownie,0,Dessert
+I0020,R169,Section Brownie,21.19,Dessert
+I0021,R040,Experience Garlic Bread,12.91,Appetizer
+I0022,R007,Also Soda,0,Beverage
+I0023,R070,Administration Spring Roll,8.12,Appetizer
+I0024,R017,Commercial Wrap,13.23,Main Course
+I0025,R086,Produce Pasta,24.45,Main Course
+I0026,R071,Sort Spring Roll,5.25,Appetizer
+I0027,R097,Decide Coffee,0,Beverage
+I0028,R135,Consider Pizza,23.21,Main Course
+I0029,R126,Something Brownie,0,Dessert
+I0030,R147,Address Brownie,26.63,Dessert
+I0031,R026,Moment Brownie,27.41,Dessert
+I0032,R193,Action Garlic Bread,14.74,Appetizer
+I0033,R174,Yard Brownie,29.2,Dessert
+I0034,R152,Quality Soda,8.19,Beverage
+I0035,R169,Collection Pizza,8.16,Main Course
+I0036,R014,Clear Juice,27.96,Beverage
+I0037,R200,Standard Brownie,11.23,Dessert
+I0038,R047,Near Soda,15.97,Beverage
+I0039,R129,Democrat Cake,12.17,Dessert
+I0040,R079,Statement Coffee,20.89,Beverage
+I0041,R105,Recognize Pasta,24.26,Main Course
+I0042,R020,Soldier Biryani,0,Main Course
+I0043,R148,Small Pizza,6.44,Main Course
+I0044,R127,Middle Brownie,25.21,Dessert
+I0045,R174,Letter Wrap,17.72,Main Course
+I0046,R128,Manager Garlic Bread,17.88,Appetizer
+I0047,R004,Market Wrap,20.41,Main Course
+I0048,R180,In Wrap,18.36,Main Course
+I0049,R190,Soldier Ice Cream,21.53,Dessert
+I0050,R044,Commercial Wrap,21.86,Main Course
+I0051,R020,Bring Spring Roll,14.18,Appetizer
+I0052,R091,To Nachos,28.81,Appetizer
+I0053,R098,Resource Soda,9.26,Beverage
+I0054,R174,Huge Pasta,0,Main Course
+I0055,R077,Brother Pasta,17.08,Main Course
+I0056,R001,Type Ice Cream,23.45,Dessert
+I0057,R079,Dream Coffee,28.23,Beverage
+I0058,R159,Huge Wrap,26.21,Main Course
+I0059,R002,Allow Pasta,20.39,Main Course
+I0060,R091,Sign Cake,7.68,Dessert
+I0061,R048,Everybody Brownie,15.05,Dessert
+I0062,R111,Interview Biryani,17.3,Main Course
+I0063,R106,Program Pizza,8.1,Main Course
+I0064,R040,Unit Tea,24.24,Beverage
+I0065,R121,Financial Ice Cream,14.88,Dessert
+I0066,R110,Reason Cake,27.3,Dessert
+I0067,R113,Positive Ice Cream,0,Dessert
+I0068,R036,Technology Coffee,13.84,Beverage
+I0069,R092,College Tea,27.09,Beverage
+I0070,R049,Whose Spring Roll,12.12,Appetizer
+I0071,R108,History Garlic Bread,23.6,Appetizer
+I0072,R171,Commercial Pizza,9.97,Main Course
+I0073,R031,Safe Juice,15.53,Beverage
+I0074,R084,Painting Coffee,23.78,Beverage
+I0075,R034,Put Soda,7.74,Beverage
+I0076,R033,Wish Biryani,8.89,Main Course
+I0077,R014,Couple Pizza,21.96,Main Course
+I0078,R153,Way Cake,23.44,Dessert
+I0079,R075,Executive Soda,12.06,Beverage
+I0080,R064,Human Wrap,20.44,Main Course
+I0081,R072,Into Spring Roll,24.17,Appetizer
+I0082,R064,Measure Brownie,21.66,Dessert
+I0083,R122,Impact Coffee,22.66,Beverage
+I0084,R049,In Pizza,29.81,Main Course
+I0085,R031,Make Spring Roll,8.31,Appetizer
+I0086,R050,Image Pasta,28.23,Main Course
+I0087,R158,Student Tea,9.99,Beverage
+I0088,R105,Magazine Wrap,18.12,Main Course
+I0089,R087,Receive Spring Roll,15.65,Appetizer
+I0090,R165,Others Wrap,6.29,Main Course
+I0091,R094,Establish Pasta,12.01,Main Course
+I0092,R108,Free Brownie,11.17,Dessert
+I0093,R011,Street Pizza,5.01,Main Course
+I0094,R074,Rather Ice Cream,16.8,Dessert
+I0095,R048,Successful Wrap,11.31,Main Course
+I0096,R086,Education Juice,12.61,Beverage
+I0097,R175,Attack Biryani,18.79,Main Course
+I0098,R093,Tough Garlic Bread,23.53,Appetizer
+I0099,R200,Few Brownie,19.72,Dessert
+I0100,R167,Population Ice Cream,11.9,Dessert
+I0101,R028,Writer Tea,0,Beverage
+I0102,R151,Continue Biryani,29.21,Main Course
+I0103,R181,Physical Spring Roll,16.14,Appetizer
+I0104,R140,News Biryani,20.48,Main Course
+I0105,R122,Section Brownie,29.74,Dessert
+I0106,R185,Mr Nachos,8.84,Appetizer
+I0107,R108,Win Spring Roll,18.76,Appetizer
+I0108,R089,Their Brownie,27.37,Dessert
+I0109,R112,Heavy Tea,6.69,Beverage
+I0110,R043,Official Tea,19.98,Beverage
+I0111,R012,Only Garlic Bread,28.9,Appetizer
+I0112,R190,Run Pizza,25.36,Main Course
+I0113,R043,Have Tea,15.94,Beverage
+I0114,R103,Article Soda,20.18,Beverage
+I0115,R001,Theory Spring Roll,9.0,Appetizer
+I0116,R179,Drive Nachos,0,Appetizer
+I0117,R078,Over Juice,0,Beverage
+I0118,R069,Number Brownie,18.8,Dessert
+I0119,R012,May Spring Roll,18.34,Appetizer
+I0120,R164,Model Ice Cream,8.7,Dessert
+I0121,R070,Degree Ice Cream,26.83,Dessert
+I0122,R054,Beautiful Pizza,18.36,Main Course
+I0123,R162,Build Pasta,20.13,Main Course
+I0124,R022,Her Cake,28.66,Dessert
+I0125,R035,Commercial Brownie,15.21,Dessert
+I0126,R015,Group Cake,20.65,Dessert
+I0127,R057,Performance Pasta,23.26,Main Course
+I0128,R066,Become Ice Cream,29.29,Dessert
+I0129,R168,Them Wrap,11.43,Main Course
+I0130,R057,Shoulder Garlic Bread,13.11,Appetizer
+I0131,R162,Huge Nachos,25.19,Appetizer
+I0132,R115,Magazine Coffee,10.79,Beverage
+I0133,R038,Walk Juice,27.55,Beverage
+I0134,R047,Structure Wrap,16.48,Main Course
+I0135,R146,Ok Spring Roll,17.26,Appetizer
+I0136,R073,Product Nachos,5.53,Appetizer
+I0137,R101,Attorney Spring Roll,22.18,Appetizer
+I0138,R037,Reason Spring Roll,6.8,Appetizer
+I0139,R166,History Garlic Bread,0,Appetizer
+I0140,R187,Their Pizza,23.76,Main Course
+I0141,R097,Mrs Biryani,14.6,Main Course
+I0142,R196,Shake Biryani,25.76,Main Course
+I0143,R064,Information Pizza,24.25,Main Course
+I0144,R161,Reflect Ice Cream,19.99,Dessert
+I0145,R139,Rich Biryani,23.4,Main Course
+I0146,R022,Challenge Brownie,10.06,Dessert
+I0147,R042,Movement Soda,12.68,Beverage
+I0148,R063,None Coffee,6.4,Beverage
+I0149,R140,Wide Brownie,8.08,Dessert
+I0150,R140,Despite Biryani,12.42,Main Course
+I0151,R001,Section Coffee,27.8,Beverage
+I0152,R110,Fast Pizza,14.63,Main Course
+I0153,R074,Prevent Brownie,10.65,Dessert
+I0154,R126,Who Tea,9.24,Beverage
+I0155,R027,Score Pizza,28.91,Main Course
+I0156,R020,Clear Cake,0,Dessert
+I0157,R022,Memory Pasta,27.39,Main Course
+I0158,R110,Third Spring Roll,18.26,Appetizer
+I0159,R109,Weight Nachos,8.76,Appetizer
+I0160,R074,Almost Brownie,13.71,Dessert
+I0161,R128,Room Pasta,21.54,Main Course
+I0162,R020,Marriage Brownie,24.72,Dessert
+I0163,R038,Away Nachos,13.01,Appetizer
+I0164,R185,Thank Soda,24.92,Beverage
+I0165,R029,Level Tea,19.45,Beverage
+I0166,R024,Continue Ice Cream,13.08,Dessert
+I0167,R197,Run Spring Roll,14.63,Appetizer
+I0168,R109,Cut Cake,17.03,Dessert
+I0169,R036,Through Juice,25.05,Beverage
+I0170,R108,From Garlic Bread,18.73,Appetizer
+I0171,R099,Thing Coffee,7.09,Beverage
+I0172,R180,Industry Coffee,7.18,Beverage
+I0173,R053,Visit Ice Cream,29.85,Dessert
+I0174,R143,Audience Pasta,16.85,Main Course
+I0175,R016,Admit Spring Roll,27.78,Appetizer
+I0176,R076,War Ice Cream,16.51,Dessert
+I0177,R054,Girl Coffee,25.7,Beverage
+I0178,R031,Break Pizza,29.05,Main Course
+I0179,R188,Ten Garlic Bread,5.66,Appetizer
+I0180,R014,Two Juice,0,Beverage
+I0181,R153,Free Wrap,26.76,Main Course
+I0182,R094,Nation Pizza,8.53,Main Course
+I0183,R004,Entire Spring Roll,19.23,Appetizer
+I0184,R196,Painting Coffee,9.56,Beverage
+I0185,R136,Today Nachos,22.46,Appetizer
+I0186,R106,Too Cake,23.06,Dessert
+I0187,R074,Travel Tea,7.78,Beverage
+I0188,R155,Easy Biryani,23.78,Main Course
+I0189,R102,Market Spring Roll,25.82,Appetizer
+I0190,R147,Picture Juice,17.55,Beverage
+I0191,R041,Professional Garlic Bread,11.8,Appetizer
+I0192,R033,Describe Wrap,23.58,Main Course
+I0193,R057,Full Tea,14.81,Beverage
+I0194,R123,Step Wrap,0,Main Course
+I0195,R043,Only Soda,0,Beverage
+I0196,R109,Bad Brownie,9.87,Dessert
+I0197,R020,Certain Biryani,14.07,Main Course
+I0198,R062,Sport Ice Cream,12.06,Dessert
+I0199,R055,Tax Biryani,0,Main Course
+I0200,R142,Alone Ice Cream,10.04,Dessert
+I0201,R069,Try Pizza,7.13,Main Course
+I0202,R012,Pm Wrap,6.2,Main Course
+I0203,R003,Guess Pasta,29.51,Main Course
+I0204,R129,Kid Cake,9.87,Dessert
+I0205,R034,Factor Juice,22.57,Beverage
+I0206,R105,Across Pasta,27.41,Main Course
+I0207,R007,Skin Pizza,19.68,Main Course
+I0208,R151,Large Soda,26.72,Beverage
+I0209,R042,Realize Pasta,8.79,Main Course
+I0210,R161,Scene Tea,7.33,Beverage
+I0211,R175,Specific Spring Roll,21.36,Appetizer
+I0212,R133,Myself Nachos,29.81,Appetizer
+I0213,R034,Area Cake,13.48,Dessert
+I0214,R111,Before Brownie,0,Dessert
+I0215,R054,Two Coffee,29.93,Beverage
+I0216,R146,Trade Pizza,20.69,Main Course
+I0217,R004,Voice Tea,8.57,Beverage
+I0218,R023,Fine Brownie,17.47,Dessert
+I0219,R044,Instead Juice,28.35,Beverage
+I0220,R072,Wrong Spring Roll,19.41,Appetizer
+I0221,R019,Maintain Ice Cream,0,Dessert
+I0222,R122,Oil Juice,29.46,Beverage
+I0223,R032,Alone Coffee,29.29,Beverage
+I0224,R094,Couple Tea,26.48,Beverage
+I0225,R159,Continue Soda,27.93,Beverage
+I0226,R094,Ground Garlic Bread,17.81,Appetizer
+I0227,R022,Sit Cake,22.06,Dessert
+I0228,R175,Laugh Juice,6.07,Beverage
+I0229,R180,Address Pizza,25.53,Main Course
+I0230,R027,Fear Pizza,12.27,Main Course
+I0231,R103,Hand Nachos,26.35,Appetizer
+I0232,R119,Until Garlic Bread,21.73,Appetizer
+I0233,R120,More Cake,21.06,Dessert
+I0234,R022,In Tea,9.51,Beverage
+I0235,R197,Benefit Wrap,15.83,Main Course
+I0236,R017,Who Juice,12.93,Beverage
+I0237,R180,Lay Coffee,23.53,Beverage
+I0238,R117,Art Pasta,5.96,Main Course
+I0239,R038,Quickly Garlic Bread,21.01,Appetizer
+I0240,R009,Must Brownie,29.7,Dessert
+I0241,R093,Attorney Tea,24.74,Beverage
+I0242,R014,Bed Coffee,10.29,Beverage
+I0243,R070,Attention Wrap,11.3,Main Course
+I0244,R037,Grow Spring Roll,6.73,Appetizer
+I0245,R077,Red Tea,0,Beverage
+I0246,R135,Early Soda,0,Beverage
+I0247,R014,Admit Ice Cream,0,Dessert
+I0248,R193,Player Juice,12.42,Beverage
+I0249,R108,But Garlic Bread,17.04,Appetizer
+I0250,R112,Step Nachos,13.87,Appetizer
+I0251,R144,Follow Tea,24.58,Beverage
+I0252,R186,Begin Spring Roll,21.7,Appetizer
+I0253,R171,Seem Garlic Bread,29.66,Appetizer
+I0254,R039,Sell Ice Cream,27.41,Dessert
+I0255,R082,Finish Garlic Bread,0,Appetizer
+I0256,R134,Key Juice,23.06,Beverage
+I0257,R163,Expert Coffee,16.23,Beverage
+I0258,R056,Take Biryani,23.64,Main Course
+I0259,R179,Within Garlic Bread,18.65,Appetizer
+I0260,R097,Eye Nachos,0,Appetizer
+I0261,R174,Five Spring Roll,19.42,Appetizer
+I0262,R094,Bag Pasta,5.4,Main Course
+I0263,R032,Cold Brownie,22.48,Dessert
+I0264,R106,Politics Soda,13.79,Beverage
+I0265,R030,Culture Juice,28.16,Beverage
+I0266,R096,Step Soda,9.42,Beverage
+I0267,R112,Environment Nachos,14.54,Appetizer
+I0268,R180,Positive Juice,20.51,Beverage
+I0269,R027,Technology Biryani,7.24,Main Course
+I0270,R027,Hold Wrap,17.41,Main Course
+I0271,R129,Movement Wrap,19.53,Main Course
+I0272,R108,Step Pasta,10.3,Main Course
+I0273,R030,From Soda,9.89,Beverage
+I0274,R090,Even Tea,0,Beverage
+I0275,R166,Laugh Soda,22.6,Beverage
+I0276,R096,Language Tea,24.55,Beverage
+I0277,R169,Four Cake,11.61,Dessert
+I0278,R002,Skill Coffee,27.5,Beverage
+I0279,R004,Strong Tea,5.66,Beverage
+I0280,R190,Near Brownie,20.0,Dessert
+I0281,R147,Bag Ice Cream,29.82,Dessert
+I0282,R101,Bring Nachos,9.82,Appetizer
+I0283,R148,Feeling Tea,0,Beverage
+I0284,R104,Section Coffee,27.6,Beverage
+I0285,R060,Community Garlic Bread,7.49,Appetizer
+I0286,R031,Laugh Nachos,20.79,Appetizer
+I0287,R142,Political Juice,8.98,Beverage
+I0288,R024,Wall Ice Cream,7.33,Dessert
+I0289,R161,Company Tea,24.25,Beverage
+I0290,R159,President Spring Roll,22.69,Appetizer
+I0291,R007,System Wrap,23.56,Main Course
+I0292,R163,Window Garlic Bread,20.79,Appetizer
+I0293,R062,Skill Ice Cream,21.31,Dessert
+I0294,R050,Especially Garlic Bread,18.39,Appetizer
+I0295,R200,Huge Nachos,25.18,Appetizer
+I0296,R169,Popular Juice,6.29,Beverage
+I0297,R161,Important Pizza,5.58,Main Course
+I0298,R118,Food Biryani,28.18,Main Course
+I0299,R037,Step Biryani,12.06,Main Course
+I0300,R020,Until Spring Roll,17.36,Appetizer
+I0301,R101,Wear Ice Cream,7.52,Dessert
+I0302,R019,Range Wrap,17.16,Main Course
+I0303,R176,Fact Pizza,15.5,Main Course
+I0304,R116,Program Brownie,25.21,Dessert
+I0305,R003,Cell Garlic Bread,27.59,Appetizer
+I0306,R088,Program Biryani,29.84,Main Course
+I0307,R041,Administration Tea,0,Beverage
+I0308,R050,Special Ice Cream,20.15,Dessert
+I0309,R056,Middle Pizza,26.67,Main Course
+I0310,R008,Already Pizza,13.19,Main Course
+I0311,R187,Evening Spring Roll,22.29,Appetizer
+I0312,R071,Might Garlic Bread,0,Appetizer
+I0313,R182,Term Pasta,18.79,Main Course
+I0314,R191,Heavy Cake,0,Dessert
+I0315,R050,Catch Soda,11.25,Beverage
+I0316,R184,Clear Nachos,12.03,Appetizer
+I0317,R150,Military Tea,24.83,Beverage
+I0318,R053,Bit Ice Cream,28.84,Dessert
+I0319,R115,Audience Soda,15.59,Beverage
+I0320,R160,Space Cake,7.69,Dessert
+I0321,R052,Method Soda,19.18,Beverage
+I0322,R017,Talk Brownie,16.24,Dessert
+I0323,R151,Leave Pasta,15.25,Main Course
+I0324,R008,Theory Cake,7.87,Dessert
+I0325,R048,Prepare Cake,13.94,Dessert
+I0326,R169,Interview Pizza,14.29,Main Course
+I0327,R032,Couple Garlic Bread,5.24,Appetizer
+I0328,R055,Management Pasta,16.63,Main Course
+I0329,R144,Job Ice Cream,6.66,Dessert
+I0330,R055,Radio Brownie,18.18,Dessert
+I0331,R184,Condition Pasta,20.2,Main Course
+I0332,R175,Not Wrap,23.91,Main Course
+I0333,R051,Add Cake,0,Dessert
+I0334,R012,Especially Soda,29.76,Beverage
+I0335,R032,Owner Tea,16.32,Beverage
+I0336,R099,Research Brownie,10.91,Dessert
+I0337,R005,Effort Pasta,21.09,Main Course
+I0338,R073,Like Wrap,8.28,Main Course
+I0339,R137,May Tea,27.95,Beverage
+I0340,R166,Man Pasta,5.41,Main Course
+I0341,R107,Event Tea,23.08,Beverage
+I0342,R193,Note Cake,13.65,Dessert
+I0343,R127,Magazine Pasta,20.31,Main Course
+I0344,R179,Serve Juice,29.6,Beverage
+I0345,R096,Finish Tea,28.44,Beverage
+I0346,R058,Evening Biryani,6.2,Main Course
+I0347,R027,Item Pizza,29.84,Main Course
+I0348,R044,Start Coffee,7.2,Beverage
+I0349,R002,These Brownie,28.35,Dessert
+I0350,R012,Never Pasta,0,Main Course
+I0351,R068,Example Ice Cream,0,Dessert
+I0352,R179,Movie Juice,9.26,Beverage
+I0353,R118,Federal Nachos,8.0,Appetizer
+I0354,R193,Health Ice Cream,19.6,Dessert
+I0355,R172,Fish Soda,8.06,Beverage
+I0356,R123,Rock Nachos,21.53,Appetizer
+I0357,R198,Argue Cake,23.27,Dessert
+I0358,R068,Scientist Spring Roll,24.16,Appetizer
+I0359,R143,Minute Pasta,25.89,Main Course
+I0360,R166,Parent Nachos,23.38,Appetizer
+I0361,R020,Big Nachos,6.88,Appetizer
+I0362,R055,Candidate Tea,5.33,Beverage
+I0363,R099,His Garlic Bread,9.7,Appetizer
+I0364,R054,Yard Pasta,25.35,Main Course
+I0365,R182,Theory Cake,16.35,Dessert
+I0366,R028,Although Nachos,27.85,Appetizer
+I0367,R099,Discuss Garlic Bread,29.38,Appetizer
+I0368,R049,Public Garlic Bread,6.72,Appetizer
+I0369,R176,Fast Coffee,12.68,Beverage
+I0370,R119,Individual Pizza,26.9,Main Course
+I0371,R005,Thought Pizza,0,Main Course
+I0372,R008,Really Garlic Bread,16.91,Appetizer
+I0373,R068,World Juice,7.96,Beverage
+I0374,R111,Be Pasta,10.3,Main Course
+I0375,R131,Very Soda,13.34,Beverage
+I0376,R095,Method Juice,7.45,Beverage
+I0377,R050,Lot Soda,12.35,Beverage
+I0378,R153,Sport Coffee,0,Beverage
+I0379,R028,Art Soda,0,Beverage
+I0380,R057,Read Spring Roll,7.88,Appetizer
+I0381,R062,American Pasta,6.65,Main Course
+I0382,R058,Magazine Pasta,27.07,Main Course
+I0383,R101,Law Soda,7.53,Beverage
+I0384,R053,Mrs Cake,9.28,Dessert
+I0385,R164,Table Garlic Bread,12.2,Appetizer
+I0386,R001,Sort Brownie,7.36,Dessert
+I0387,R177,Money Juice,10.97,Beverage
+I0388,R018,Nor Brownie,9.17,Dessert
+I0389,R037,Open Cake,29.06,Dessert
+I0390,R086,Past Soda,5.52,Beverage
+I0391,R044,Such Ice Cream,21.98,Dessert
+I0392,R122,Successful Pasta,19.58,Main Course
+I0393,R121,Leg Coffee,0,Beverage
+I0394,R059,Word Pasta,18.13,Main Course
+I0395,R199,Little Spring Roll,7.35,Appetizer
+I0396,R086,If Brownie,16.32,Dessert
+I0397,R066,Culture Brownie,0,Dessert
+I0398,R118,Have Cake,5.34,Dessert
+I0399,R182,Walk Cake,13.34,Dessert
+I0400,R070,Also Tea,22.14,Beverage
+I0401,R106,Protect Pizza,0,Main Course
+I0402,R128,Cause Garlic Bread,5.77,Appetizer
+I0403,R053,Outside Juice,23.61,Beverage
+I0404,R164,Amount Garlic Bread,7.7,Appetizer
+I0405,R174,Power Brownie,18.62,Dessert
+I0406,R068,Be Coffee,27.76,Beverage
+I0407,R101,At Cake,19.73,Dessert
+I0408,R049,Behavior Cake,6.03,Dessert
+I0409,R032,Public Brownie,15.84,Dessert
+I0410,R074,Us Juice,7.75,Beverage
+I0411,R176,Improve Wrap,8.68,Main Course
+I0412,R075,Day Nachos,20.59,Appetizer
+I0413,R125,Option Garlic Bread,12.21,Appetizer
+I0414,R117,Call Ice Cream,6.02,Dessert
+I0415,R032,Condition Brownie,6.33,Dessert
+I0416,R111,I Ice Cream,0,Dessert
+I0417,R065,Study Biryani,8.44,Main Course
+I0418,R171,Huge Brownie,28.96,Dessert
+I0419,R183,Develop Spring Roll,11.77,Appetizer
+I0420,R150,New Garlic Bread,27.96,Appetizer
+I0421,R009,Rich Ice Cream,16.83,Dessert
+I0422,R174,Bed Ice Cream,20.93,Dessert
+I0423,R026,Deal Soda,27.33,Beverage
+I0424,R080,Determine Brownie,9.33,Dessert
+I0425,R149,Child Juice,8.48,Beverage
+I0426,R035,By Garlic Bread,15.41,Appetizer
+I0427,R079,Put Garlic Bread,7.14,Appetizer
+I0428,R097,Serve Coffee,24.56,Beverage
+I0429,R036,Have Tea,18.16,Beverage
+I0430,R176,Face Brownie,22.81,Dessert
+I0431,R110,Cost Juice,16.66,Beverage
+I0432,R008,Physical Soda,27.81,Beverage
+I0433,R023,Specific Wrap,23.9,Main Course
+I0434,R149,Green Ice Cream,17.81,Dessert
+I0435,R140,Base Nachos,27.5,Appetizer
+I0436,R194,Choose Ice Cream,0,Dessert
+I0437,R172,Cell Garlic Bread,5.15,Appetizer
+I0438,R022,Nature Tea,6.37,Beverage
+I0439,R153,Eight Pasta,7.43,Main Course
+I0440,R124,Difficult Brownie,22.26,Dessert
+I0441,R190,Power Biryani,0,Main Course
+I0442,R133,Less Pizza,8.6,Main Course
+I0443,R058,He Coffee,27.38,Beverage
+I0444,R161,Serious Garlic Bread,12.77,Appetizer
+I0445,R160,Company Wrap,22.19,Main Course
+I0446,R001,Question Biryani,8.83,Main Course
+I0447,R064,Use Biryani,10.11,Main Course
+I0448,R130,Than Tea,16.1,Beverage
+I0449,R077,Television Biryani,0,Main Course
+I0450,R140,Fire Spring Roll,11.51,Appetizer
+I0451,R111,Themselves Tea,8.66,Beverage
+I0452,R037,Hit Pizza,25.46,Main Course
+I0453,R131,Number Spring Roll,23.54,Appetizer
+I0454,R123,Painting Garlic Bread,12.25,Appetizer
+I0455,R095,Ability Wrap,0,Main Course
+I0456,R179,Turn Soda,25.0,Beverage
+I0457,R109,Free Soda,8.7,Beverage
+I0458,R031,Not Cake,19.11,Dessert
+I0459,R009,Rule Pasta,21.13,Main Course
+I0460,R091,Clear Tea,29.07,Beverage
+I0461,R071,He Soda,5.23,Beverage
+I0462,R129,Their Garlic Bread,26.4,Appetizer
+I0463,R181,Behind Garlic Bread,18.13,Appetizer
+I0464,R168,Maybe Pizza,8.79,Main Course
+I0465,R184,Admit Cake,26.47,Dessert
+I0466,R196,Might Garlic Bread,21.46,Appetizer
+I0467,R166,Card Tea,17.09,Beverage
+I0468,R148,Weight Coffee,22.71,Beverage
+I0469,R179,Change Ice Cream,13.1,Dessert
+I0470,R159,Radio Brownie,25.75,Dessert
+I0471,R008,Side Biryani,26.3,Main Course
+I0472,R025,Case Spring Roll,21.63,Appetizer
+I0473,R083,Almost Soda,24.0,Beverage
+I0474,R045,Instead Spring Roll,23.2,Appetizer
+I0475,R017,Traditional Soda,6.55,Beverage
+I0476,R010,Recent Ice Cream,0,Dessert
+I0477,R196,Statement Wrap,0,Main Course
+I0478,R083,Spend Pizza,7.69,Main Course
+I0479,R035,Fly Soda,29.72,Beverage
+I0480,R065,Cultural Spring Roll,17.28,Appetizer
+I0481,R052,Opportunity Ice Cream,23.55,Dessert
+I0482,R023,Son Coffee,19.55,Beverage
+I0483,R009,Other Pizza,25.25,Main Course
+I0484,R199,Agreement Pasta,15.2,Main Course
+I0485,R048,Support Pasta,0,Main Course
+I0486,R054,Building Coffee,19.26,Beverage
+I0487,R092,Easy Juice,0,Beverage
+I0488,R113,Do Spring Roll,15.69,Appetizer
+I0489,R146,She Tea,6.95,Beverage
+I0490,R031,Arm Ice Cream,17.47,Dessert
+I0491,R006,Talk Pasta,10.6,Main Course
+I0492,R100,Bring Cake,22.58,Dessert
+I0493,R074,Several Pizza,6.87,Main Course
+I0494,R157,Plant Nachos,17.5,Appetizer
+I0495,R140,Operation Tea,22.44,Beverage
+I0496,R068,Defense Wrap,21.33,Main Course
+I0497,R108,Ready Pasta,11.52,Main Course
+I0498,R036,To Ice Cream,0,Dessert
+I0499,R016,On Brownie,10.89,Dessert
+I0500,R089,We Biryani,29.53,Main Course
