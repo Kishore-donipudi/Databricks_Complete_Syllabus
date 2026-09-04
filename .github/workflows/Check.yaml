@@ -1,0 +1,57 @@
+name: Updating and Checking Files 
+
+on: 
+    push: 
+        branches:
+            - main
+    pull_request:
+        branches:
+            - databricks-update
+jobs:
+    build:
+        runs-on: ubuntu-latest #deploying the code in ubuntu environment
+        steps:
+            - name: Checkout repo 
+              uses: actions/checkout@v4  # checks the repo code and downloads it to the ubuntu env
+            - name: setup Python     #Setting up the python environment in ubuntu
+              uses: actions/setup-python@v5  # getting the python setup action from github 
+              with:
+                python-version: '3.11'  #specifying the python version to be used 
+
+            - name: Installing deps 
+              run: |
+                echo "Installing dependencies"
+                pip install ruff  # Installing ruff package to check the code quality and formatting
+            
+            - name: version check
+              run: |
+                echo "Checking the version of Python"
+                python --version  # checking the python version
+                echo "Checking the version of Ruff"
+                ruff --version  # checking the ruff version
+
+    test:
+        needs: build
+        runs-on: ubuntu-latest  #deploying the code in ubuntu environment
+        steps:   
+            - name: Checkout repo 
+              uses: actions/checkout@v4  # checks the repo code and downloads it to the ubuntu env
+            
+            - name: setup Python     #Setting up the python environment in ubuntu
+              uses: actions/setup-python@v5  # getting the python setup action from github 
+              with:
+                python-version: '3.11'  #specifying the python version to be used
+
+            - name: Install Ruff
+              run: pip install ruff
+              
+            - name: Running Ruff 
+              run: | 
+                   echo "==== Nb Files ===="
+                   find . -name "*.ipynb" -type f  # listing all the ipynb files in the repo
+                   echo "Counting the number of ipynb files in the repo"
+                   find . -name "*.ipynb" | wc -l  # counting the number of ipynb files in the repo
+                   echo "==== Ruff Results ===="
+                   find . -name "*.ipynb" -type f -exec ruff check {} \;  # running ruff on all the ipynb files in the repo
+              continue-on-error: true  # continue the workflow even if ruff finds issues
+
